@@ -39,7 +39,10 @@ body{
     background-color: var(--main-color) ;
     box-shadow:  5px 5px 0px var(--secondary-color);
 
-    max-width: 25vw;
+    height: 60svh;
+    min-height: 20svh;
+    width: 20vw;
+    min-width: 20vw;
 
     display: flex;
     flex-direction: column;
@@ -95,7 +98,7 @@ body{
 
 .clickable{
 
-    height: 200%;
+    height: 100%;
 
 
     display: flex;
