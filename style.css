@@ -1,0 +1,134 @@
+:root{
+    --main-color: #202020;
+    --secondary-color: #353535;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+button{
+    background-color: transparent;
+    border-width: 0;
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    padding: 0;
+    cursor: pointer;
+}
+
+html{
+    color-scheme: dark light;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100svh;
+}
+
+
+
+.calcolatrice{
+    background-color: var(--main-color) ;
+    box-shadow:  5px 5px 0px var(--secondary-color);
+
+    max-width: 25vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 24px;
+
+
+}
+
+
+.display{
+
+
+    background-color: rgba(50, 205, 50, 0.521);
+
+    width: 90%;
+    height: 1rem;
+
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-block: 5%;
+
+    text-align: end;
+    font-size: 1.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+
+}
+
+#display-output{
+    width: 100%;
+}
+
+#display-output-queue{
+    width: 100%;
+    font-size: .7rem;
+    opacity: .6;
+
+
+    
+    
+}
+
+
+
+
+
+.clickable{
+
+    height: 200%;
+
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.clickable > button{
+
+    min-width: 18%;
+
+    display: block;
+
+    padding: .5rem;
+
+    margin: .5rem;
+    margin-bottom: 1rem;
+
+    border-radius: 12px;
+
+
+
+
+
+   
+    
+}
+
+button:active{
+
+    border-radius: 12px;
+    background: #202020;
+    box-shadow: inset 5px 5px 16px #171717,
+                inset -5px -5px 16px #292929;
+}
